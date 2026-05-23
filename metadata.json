@@ -1,0 +1,6 @@
+{
+  "name": "快乐牛马",
+  "description": "快乐牛马同城众包轻任务小程序，提倡‘同城小事有人帮’。特设实名认证、资金托管、保障险及爱心分奖励，保障每一分汗水的温度与价值。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
