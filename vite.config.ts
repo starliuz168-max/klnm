@@ -1,3 +1,4 @@
+// 配置 Vite 前端构建、React 插件、Tailwind 插件和本地开发服务器行为。
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
@@ -5,7 +6,6 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: process.env.GITHUB_PAGES === 'true' ? '/klnm/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
